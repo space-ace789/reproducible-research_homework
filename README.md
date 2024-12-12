@@ -1,6 +1,15 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+## My Answers
+
+This is the link to my repository for the logistic growth class -> <https://github.com/space-ace789/logistic_growth>. 
+This contains my answers to the first three questions of the assignment within the **README.md** as well as any accompanying code.
+
+<ins>**Question4**<ins>
+
+**Part A:**
+
+
 
 ## Instructions
 
