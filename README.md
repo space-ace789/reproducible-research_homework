@@ -5,7 +5,7 @@
 This is the link to my repository for the logistic growth class -> <https://github.com/space-ace789/logistic_growth>. 
 This contains my answers to the first three questions of the assignment within the **README.md** as well as any accompanying code.
 
-<ins>**Question4**<ins>
+<ins>**Question 4**<ins>
 
 Running Random Path Code:
 
@@ -23,9 +23,19 @@ The random seed itself will be a (set of) numbers or a vector which will initial
 
 Random seeds can be used to generate passcodes allowing them to acts as  secret keys which can be shared among a select group of people or systems. As long as the output of the seed is suitably random to prevent it from being easily guessed then in theory only those who already know the seed needed to generate the passcode would be able to access whatevr it is being used to protect.
 
-#Brownian Motion Code:
+## Brownian Motion Code:
 
 This is the code path for finding the edited version of the random walking R file  -question-4-code/random_walk.R. 
+
+Commit History:
+
+<img width="1091" alt="Commit History 1" src="https://github.com/user-attachments/assets/32c2253b-83f0-4add-abec-9a1e70bddb20" />
+<img width="1091" alt="Commit History 2" src="https://github.com/user-attachments/assets/6403aad1-f57c-4830-ba6c-4f2caa502836" />
+<img width="1103" alt="Commit History 3" src="https://github.com/user-attachments/assets/889fff83-1261-47e1-8cf6-29b5cb4370fd" />
+<img width="1089" alt="Commit History 4" src="https://github.com/user-attachments/assets/b9fb62d2-3e9b-44b1-a248-5ef64e89a560" />
+<img width="1089" alt="Commit History 5" src="https://github.com/user-attachments/assets/1f42992d-6c1d-448c-a83e-f8a0ac3c01c8" />
+
+The images above show the commit history associated with adding the code for brownian motion.
 
 
 
