@@ -2,20 +2,20 @@
 
 ## My Answers
 
-This is the link to my repository for the logistic growth class -> <https://github.com/space-ace789/logistic_growth>. 
+This is the link to my repository for the logistic growth class -> <https://github.com/space-ace789/logistic_growth>. </br>
 This contains my answers to the first three questions of the assignment within the **README.md** as well as any accompanying code.
 
 <ins>**Question 4**<ins>
 
-Running Random Path Code:
+<ins>Running Random Path Code:<ins>
 
 When run the random walk code produces two different ways of navigating through a 2D space. In this code time has been endocoded as a gradient from dark blue at the start to light blue at the end which is useful as it allows you to see not only differences in the shape of the path but also differences in the origin and final points of the path, as well as whether the two paths occupy the same space at the same time. In this simulation time actually represents the number of 'steps' taken by the hypothetical moving object we are tracking. 
 
-In the original execution of the code the paths produced were very different not only in their shape and occupation of the space, but also in their position throughout time. For example the first path both starts and finishes near the top of its space, while the second path travels from the top to the bottom. As well as differing in shape and direction of movement the paths also differ in the amount of space they occupy and the subset of the total coordinate space they reside in. While both paths span a range of about 6 Y coordinates while path one ranges from 06 to 0, path 2 occupies the y corrdinates -1 to 5. While there is a bit more overlap between the two paths in terms of x coordinates (path 1 = 0-4, path 2 = -3 to 2) path 2 occupies a wider area. Therefore we can conclude that while both paths traverese a similar amount of space vertically, the second path includes more horizontal movement.
+In the original execution of the code the paths produced were very different not only in their shape and occupation of the space, but also in their position throughout time. For example the first path both starts and finishes near the top of its space, while the second path travels from the top to the bottom. As well as differing in shape and direction of movement the paths also differ in the amount of space they occupy and the subset of the total coordinate space they reside in. While both paths span a range of about 6 Y coordinates while path one ranges from 06 to 0, path 2 occupies the y corrdinates -1 to 5. While there is a bit more overlap between the two paths in terms of x coordinates (path 1 = 0 to 4, path 2 = -3 to 2) path 2 occupies a wider area. Therefore we can conclude that while both paths traverese a similar amount of space vertically, the second path includes more horizontal movement.
 
 Each time the code is executed two new sets of random coordinates, and therefore two new paths are generated. Additionally decreasing the number of steps taken decreases the smoothness of the path.
 
-Random Seeds: 
+<ins>Random Seeds:<ins>
 
 A random seed is a function/method used in computing to allow people to produce the same random values each time code is run. This means that random seeds are not truly random and are instead refered to as psuedorandom. This is because while the initial values pulled from a random seed have been randomly generated, each subsequent time the same set of randomly generated values will be generated each time. This is somewhat similar to the concpet of chaos theory in which each specific set of inputs has their own unique pattern which will be reliably reproduced everytime they are substituted into a model. However what this pattern is is random and cannot be predicted, until you run a simulation with the set of inputs and actually observe what pattern is generated.
 
@@ -23,11 +23,11 @@ The random seed itself will be a (set of) numbers or a vector which will initial
 
 Random seeds can be used to generate passcodes allowing them to acts as  secret keys which can be shared among a select group of people or systems. As long as the output of the seed is suitably random to prevent it from being easily guessed then in theory only those who already know the seed needed to generate the passcode would be able to access whatevr it is being used to protect.
 
-## Brownian Motion Code:
+<ins>Brownian Motion Code:<ins>
 
 This is the code path for finding the edited version of the random walking R file  -question-4-code/random_walk.R. 
 
-Commit History:
+<ins>Commit History:<ins>
 
 <img width="1091" alt="Commit History 1" src="https://github.com/user-attachments/assets/32c2253b-83f0-4add-abec-9a1e70bddb20" />
 <img width="1091" alt="Commit History 2" src="https://github.com/user-attachments/assets/6403aad1-f57c-4830-ba6c-4f2caa502836" />
@@ -37,7 +37,23 @@ Commit History:
 
 The images above show the commit history associated with adding the code for brownian motion.
 
+<ins>**Question 5**<ins>
 
+**See the question 5 answers r document for full answers and the corresponding code for this, found via the path.Question 5 Answers.R**
+
+The Number of rows is 33 and the number of columns is 13.
+
+A log transform is what allows the data to be fitted to a linear model. 
+
+ɑ = 1181.807, and β = 1.5152, once rounded to 4sf and 3sf respectively these are the same as the values calculated in the origina study, shown in table 2. 
+
+<img width="883" alt="Screenshot 2024-12-13 at 09 07 54" src="https://github.com/user-attachments/assets/4cc48610-7475-41a3-bf36-538e53810bfa" />
+
+This is the code used to reproduce the figure shown in the hand out, and below is an screenshot of the figure produced, which can also be found here - reproduced_figure.png.
+
+<img width="872" alt="Screenshot 2024-12-13 at 09 09 49" src="https://github.com/user-attachments/assets/13071b13-d236-4909-8731-66a114b18306" />
+
+The estimated volume of a dsDNA virus with 300 kb long genome is 6697007 nm<sup>3</sup>. 
 
 ## Instructions
 
