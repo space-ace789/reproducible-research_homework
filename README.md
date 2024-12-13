@@ -25,7 +25,10 @@ Random seeds can be used to generate passcodes allowing them to acts as  secret 
 
 <ins>Brownian Motion Code:<ins>
 
-This is the code path for finding the edited version of the random walking R file, either via the code path -> question-4-code/random_walk.R, or from this link <https://github.com/space-ace789/version_control_assignment/blob/main/question-4-code/random_walk.R>
+This is the code path for finding the edited version of the random walking R file, either via the code path -> question-4-code/random_walk_edited.R, or from this link <https://github.com/space-ace789/version_control_assignment/blob/main/question-4-code/random_walk_edited.R>
+
+<ins>N.B I accidentally moved some files around and was having issues pushing from the original random walk R file to the repository so I had to finish all my edits and then upload it directly to the git hub respository, please look at the random_walk_**edited**.r file for my final submission for this question.<ins>
+
 
 <ins>Commit History:<ins>
 
