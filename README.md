@@ -7,7 +7,25 @@ This contains my answers to the first three questions of the assignment within t
 
 <ins>**Question4**<ins>
 
-**Part A:**
+Running Random Path Code:
+
+When run the random walk code produces two different ways of navigating through a 2D space. In this code time has been endocoded as a gradient from dark blue at the start to light blue at the end which is useful as it allows you to see not only differences in the shape of the path but also differences in the origin and final points of the path, as well as whether the two paths occupy the same space at the same time. In this simulation time actually represents the number of 'steps' taken by the hypothetical moving object we are tracking. 
+
+In the original execution of the code the paths produced were very different not only in their shape and occupation of the space, but also in their position throughout time. For example the first path both starts and finishes near the top of its space, while the second path travels from the top to the bottom. As well as differing in shape and direction of movement the paths also differ in the amount of space they occupy and the subset of the total coordinate space they reside in. While both paths span a range of about 6 Y coordinates while path one ranges from 06 to 0, path 2 occupies the y corrdinates -1 to 5. While there is a bit more overlap between the two paths in terms of x coordinates (path 1 = 0-4, path 2 = -3 to 2) path 2 occupies a wider area. Therefore we can conclude that while both paths traverese a similar amount of space vertically, the second path includes more horizontal movement.
+
+Each time the code is executed two new sets of random coordinates, and therefore two new paths are generated. Additionally decreasing the number of steps taken decreases the smoothness of the path.
+
+Random Seeds: 
+
+A random seed is a function/method used in computing to allow people to produce the same random values each time code is run. This means that random seeds are not truly random and are instead refered to as psuedorandom. This is because while the initial values pulled from a random seed have been randomly generated, each subsequent time the same set of randomly generated values will be generated each time. This is somewhat similar to the concpet of chaos theory in which each specific set of inputs has their own unique pattern which will be reliably reproduced everytime they are substituted into a model. However what this pattern is is random and cannot be predicted, until you run a simulation with the set of inputs and actually observe what pattern is generated.
+
+The random seed itself will be a (set of) numbers or a vector which will initialse a specific psuedorandom generator. This could be very useful if you want the analyse the effects of stochasticity on a model, as you need a way to add randomness to the output however you would not neccessarily want to be generating new figures or other outputs each time you run a set of code as this could make analysis difficult. Using random seeds is also probably usefule when sharing data with other scientist. It allows you to maintain reproducibility of anaylsis, which is an important part of science, as it will allow people to run the same code and get the same outputs to analyse. However it still allows you to initially include some randomness.
+
+Random seeds can be used to generate passcodes allowing them to acts as  secret keys which can be shared among a select group of people or systems. As long as the output of the seed is suitably random to prevent it from being easily guessed then in theory only those who already know the seed needed to generate the passcode would be able to access whatevr it is being used to protect.
+
+#Brownian Motion Code:
+
+This is the code path for finding the edited version of the random walking R file  -question-4-code/random_walk.R. 
 
 
 
